@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Fitness Blog</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Fitness Blog</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Diet</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Workouts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <button
+              class="btn btn-warning btn-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#login"
+            >
+              Log In
+            </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Create <span class="text-warning"> Healthy Habits </span></h1>
+            <p class="lead my-4">
+              We focus on teaching our users the best ways to improve their day 
+              to day healthy habits and introduce them to new ones.
+              
+            </p>
+            <p class="lead my-4">
+              Start your new journey with us by creating  a new account right below !
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Create an account
+            </button>
+          </div>
+          <img
+            class="img-fluid d-none d-sm-block"
+            style="width: 150px; min-height: 200px;"
+            src="img/yogaman.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Blue Line -->
+    <section class="bg-primary text-light p-1">
+    
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-egg"></i>
+                </div>
+                <h3 class="card-title mb-3">Diet</h3>
+                <p class="card-text">
+                  In this page you can check our diet plans,recommendations,
+                  and everything according to living  a healthier eating lifestyle.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Workouts</h3>
+                <p class="card-text">
+                  In this page you can check our recommended workouts including
+                  both male and female specified.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi-bag-fill"></i>
+                </div>
+                <h3 class="card-title mb-3">Products</h3>
+                <p class="card-text">
+                  In this page we have decided to share our top most recommended products
+                  like gear,gym equipment,tools,wearables etc.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 UBT - Web Engineering</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+   
+  </body>
+</html>
